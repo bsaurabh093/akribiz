@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.karan{
+    font-family: "Karantina", system-ui;    
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+
+.topHeader{
+   padding: 10px; 
+   border-bottom: 1px solid #e5e5e5;
+}
+
+.topHeader .row{
+    align-items: center;
+}
+
+.shopName{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shopName h3{
+    margin: 0;
+    font-family: "Karantina", system-ui; 
+}
+
+.rightTopHead{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.rightTopHead .socialIcons ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.rightTopHead .socialIcons ul li:after{
+    content: '|';
+
+}
+
+.rightTopHead .socialIcons ul li:nth-last-child(1)::after{
+    content: '';
+    display: none;
+}
+
+.rightTopHead .socialIcons ul li a{
+    color: #000;
+    margin-right: 10px;
+}
+
+.rightTopHead .findLocation{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rightTopHead .findLocation h5{
+    margin: 0;
+}
+
+.bottomFooter .navbar-collapse{
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.quoteBtn{
+    background: #4b50a2;
+    color: #fff;
+    border-radius: 30px;
+    padding: 7px 21px !important;
+}
+
+.navbar-nav{
+    gap: 20px;
+}
+
+.navbar-brand
+{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand img{
+    width: 160px;
+}
+
+.bg-body-tertiary {
+    padding: 0;
+}
+
+.info{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.info .item{
+    flex: 33.3%;
+    background: #9fd7ff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 1.4rem;
+    padding: 20px;
+    gap: 20px;
+}
+
+.info .item:nth-child(2){
+    background:#4b50a2;
+    color:#fff;
+}
+
+.info .item:nth-child(2) i{
+    color:#000;
+}
+
+.info .item i{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    flex: 0 0 50px;
+}
+
+.info .item p{
+    margin: 0;
+}
+
+.centerImg img{
+    width: 100%;
+}
+
+.joinAkbiriz{
+    margin: 30px 0;
+}
+
+.joinAkbiriz .fourBox{
+    display: flex;
+    gap: 30px;
+}
+
+.joinAkbiriz .fourBox .item{
+    box-shadow: 0px 0px 2px 3px #00000014;
+    flex: 25%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.joinAkbiriz .fourBox .item span{
+    font-size: 4rem;
+}
+
+.joinAkbiriz .fourBox .item h3{
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+}
+
+.joinAkbiriz p{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.whyChooseUs{
+    margin: 30px 0;
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.head h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #4b50a2;
+}
+
+.head p{
+    font-size: 1.5rem;
+}
+
+.chooseUs{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px
+}
+
+.chooseUs .item{
+    width: calc(25% - 20px); 
+    padding: 10px;
+    border-radius: 20px;
+    padding-top: 20px;
+    transition: .5s ease-in-out;
+}
+
+.chooseUs .item:hover{
+    box-shadow: 0px 0px 2px 3px #0000001a;
+}
+
+.chooseUs .item h3{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    min-height: 80px;
+}
+
+.chooseUs .item img{
+    width: 100%;
+}
+
+.chooseUs .item p{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.journey{
+    background-color: #9fd7ff;
+    padding: 40px 70px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.journey h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+.mapIndia{
+    margin: 30px 0;
+}
+
+.mapIndia img{
+    margin: 0 auto;
+    display: block;
+}
+
+.valuedCustomer{
+    margin: 30px 0;
+}
+
+.valuedCustomer .item img{
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    box-shadow: 0px 0px 2px 3px #1414141a;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.owl-nav{
+    position: absolute;
+    z-index: 1;
+    top: -90px;
+    /* transform: translateY(-50%); */
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    gap: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    padding: 10px !important;
+    background-color: #ffffff;
+    /* color: #fff; */
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 2px #00000017;
+}
+
+.owl-prev{
+    /* background: #535353;
+    padding: 10px !important;
+    left: -30px;
+    position: relative;
+    color: #fff; */
+    position: relative;
+}
+
+.owl-next{
+    /* background: #535353;
+    padding: 10px !important;
+    right: -40px;
+    position: relative;
+    color: #fff; */
+    position: relative;
+}
+
+footer .topFooter{
+    padding: 20px;
+    background: #3f3f3f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+footer .topFooter .item{
+    width: 14.87%;
+}
+
+footer .topFooter .item ul{
+    padding: 0;
+    margin: 0;
+    list-style: inside;
+}
+
+footer .topFooter .item ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .bottomFooter p{
+    margin: 0;
+    text-align: center;
+    background: #393939;
+    padding: 10px;
+    color: #fff;
+}
