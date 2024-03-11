@@ -5,6 +5,16 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .karan{
     font-family: "Karantina", system-ui;    
 }
@@ -355,4 +365,132 @@ footer .bottomFooter p{
     background: #393939;
     padding: 10px;
     color: #fff;
+}
+
+.breadCrumb{
+    background: #eee;
+    padding: 20px;
+}
+
+.breadCrumb h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.bread ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.bread ul li{
+    padding-right: 0px;
+}
+
+.bread ul li:after{
+    content: '/';
+    padding-left: 15px;
+}
+
+.bread ul li:nth-last-child(1):after{
+    content: '/';
+    padding-left: 15px;
+    display: none;
+}
+
+.bread ul li a{
+    color: #000;
+}
+
+.sideBar{
+    background: #eee;
+    margin: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    height: calc(100% - 35px);
+}
+
+.sideBar ul li{
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative
+}
+
+.sideBar ul li:nth-last-child(1){
+    border: none;
+}
+
+.sideBar ul li.active::after,
+.sideBar ul li:hover::after{
+    content: '.';
+    position: absolute;
+    top: -20%;
+    right: 20px;
+    font-size: 3rem;
+    color: #4b50a2;
+    transform: translateY(-50%);
+    height: 20px;
+
+}
+
+.sideBar ul li.active a,
+.sideBar ul li:hover a{
+    color: #4b50a2;
+    font-weight: bold;
+}
+
+.sideBar ul li a{
+    color: #000;
+    display: block;
+}
+
+.productGallery img{
+    width: 100%;
+}
+
+.productContent{
+    padding: 50px 30px;
+}
+
+.addCart{
+    background: #4b50a2;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+}
+
+.addCart:after{
+    content: '\2b';
+    float: right;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.otherProduct{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.productItem{
+    box-shadow: 0px 0px 1px 2px #0000001a;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.otherProduct .productItem img{
+    width: 100%;
+}
+
+.aboutImg img{
+    width: 100%;
+}
+
+.aboutContent{
+    padding: 30px;
 }

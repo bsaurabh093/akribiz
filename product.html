@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Akribiz</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="main_header" id="main_header"></div>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 g-0">
+                    <div class="breadCrumb">
+                        <h1>Products</h1>
+                        <div class="bread">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-house"></i></a></li>
+                                <li><a href="">Products</a></li>
+                                <li><a href="">Office Stationaries</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="sideBar">
+                    <ul>
+                      <li class="active"><a href="#">Food & Beverages</a></li>
+                      <li><a href="#">Housekeeping</a></li>
+                      <li><a href="#">Office Stationery</a></li>
+                      <li><a href="#">Customized Corporate Gifts</a></li>
+                      <li><a href="#">Chemicals</a></li>
+                      <li><a href="#">Tools</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <div class="productDetails">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="productGallery">
+                          <img src="img/foodnd.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="productContent">
+                          <h2>Food And Beverages</h2>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit id a natus molestiae perferendis eaque sunt laboriosam labore est odit cumque delectus similique alias iure aut corrupti, error aliquam saepe quod consectetur, ullam corporis. Quo laborum minus repudiandae quidem at cumque blanditiis quasi reiciendis mollitia eligendi! Facilis illo eum ipsum, quis, hic eaque adipisci molestias nemo sint consequatur totam id enim omnis error quae dolor beatae, eligendi possimus perferendis mollitia voluptates cumque quos? Modi harum, fugiat non alias quasi delectus suscipit veniam, a magnam nam hic perspiciatis recusandae dicta! Incidunt, ea autem ducimus libero tempore dicta, quasi error officia minima velit deserunt, delectus at debitis eum! Unde adipisci deleniti vero ipsa! Totam voluptatibus sequi iusto accusamus molestias sed explicabo placeat?</p>
+                          <a href="#" class="addCart">Add to cart</a>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="otherProduct">
+                          <div class="productItem">
+                            <img src="img/food.png" alt="">
+                            <h3>Heading</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore eaque eligendi facere pariatur</p>
+                            <a href="#" class="addCart">Add to cart</a>
+                          </div>
+                          <div class="productItem">
+                            <img src="img/food.png" alt="">
+                            <h3>Heading</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore eaque eligendi facere pariatur</p>
+                            <a href="#" class="addCart">Add to cart</a>
+                          </div>
+                          <div class="productItem">
+                            <img src="img/food.png" alt="">
+                            <h3>Heading</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore eaque eligendi facere pariatur</p>
+                            <a href="#" class="addCart">Add to cart</a>
+                          </div>
+                          <div class="productItem">
+                            <img src="img/food.png" alt="">
+                            <h3>Heading</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore eaque eligendi facere pariatur</p>
+                            <a href="#" class="addCart">Add to cart</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="main_footer" id="main_footer"></div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 20,
+        navText: [
+          "<div class='nav-btn prev-slide'><i class='fa-solid fa-angle-left'></i></div>",
+          "<div class='nav-btn next-slide'><i class='fa-solid fa-angle-right'></i></div>",
+        ],
+        autoplay: true,
+        autoplayTimeout: 1000,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 2,
+            nav: true,
+            autoplay: false,
+          },
+          600: {
+            items: 3,
+            nav: true,
+          },
+          1000: {
+            items: 4.5,
+            nav: true,
+            loop: true,
+          },
+        },
+      });
+    </script>
+    <script>
+      $(function () {
+        $("#main_header").load("header.html");
+        $("#main_footer").load("footer.html");
+      });
+    </script>
+  </body>
+</html>
