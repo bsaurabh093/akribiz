@@ -494,3 +494,21 @@ footer .bottomFooter p{
 .aboutContent{
     padding: 30px;
 }
+
+.productDetails{
+    padding: 30px 0;
+}
+
+.careerItem{
+    padding: 20px;
+    box-shadow: 0px 0px 2px 3px #72727229;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.applyNowBtn a{
+    background: #4b50a2;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px;
+}

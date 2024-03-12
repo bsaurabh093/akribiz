@@ -24,7 +24,7 @@
     .info .item {
         
         text-align: left;
-       
+        flex: 100%;
         justify-content: start;
         align-items: center;
         height: 110px;
