@@ -30,7 +30,6 @@
     flex-wrap: wrap;
   }
   .info .item {
-    
     text-align: left;
     flex: 100%;
     justify-content: start;
@@ -39,6 +38,28 @@
     font-size: 1rem;
     padding: 10px;
     gap: 20px;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 5%;
+    bottom: 1.25rem;
+    left: 5%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #000;
+    text-align: center;
+    background: #ffffff63;
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+  }
+  .carousel-caption h5 {
+    font-size: 1em;
+  }
+  .carousel-caption p {
+    font-size: 0.7rem;
+  }
+  .carousel-indicators {
+    display: none;
   }
   .joinAkbiriz {
     margin: 15px 0;
@@ -121,23 +142,39 @@
   }
   .breadCrumb h1 {
     font-size: 2rem;
-}
-.aboutContent {
-    padding: 20px;
-}
-.sideBar {
+  }
+  .aboutImg {
+    display: flex;
+    align-items: center;
     height: auto;
-}
-.productContent {
+    padding: 20px;
+  }
+  .aboutContent {
+    padding: 20px;
+  }
+  .sideBar {
+    height: auto;
+  }
+  .productContent {
     padding: 30px 0px;
-}
-.otherProduct {
+  }
+  .otherProduct {
     flex-wrap: wrap;
     margin: 0px;
-}
-.productDetails {
+  }
+  .productDetails {
     padding: 30px 20px;
-}
+  }
+  .careerItem {
+    padding: 20px 10px;
+  }
+  .twoBtns {
+    flex-wrap: wrap;
+  }
+  .twoBtns a {
+    flex: 100%;
+  }
+
   footer .topFooter {
     gap: 20px;
     flex-wrap: wrap;
