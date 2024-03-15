@@ -1,121 +1,148 @@
-@media (max-width:767px){
-    .rightTopHead {
-        margin-top: 15px;
-        display: flex;
-        justify-content: end;
-        gap: 10px;
-    }
-    .navbar-nav {
-        gap: 5px;
-    }
-    .navbar-brand img {
-        width: 110px;
-    }
-    .navbar-toggler{
-        order: 3;
-    }
-    .navbar-collapse {
-        order: 4;
-    }
-    .info {
-        margin: 10px 0;
-        flex-wrap: wrap;
-    }
-    .info .item {
-        
-        text-align: left;
-        flex: 100%;
-        justify-content: start;
-        align-items: center;
-        height: 110px;
-        font-size: 1.2rem;
-        padding: 10px;
-        gap: 20px;
-    }
-    .joinAkbiriz {
-        margin: 15px 0;
-    }
-    .joinAkbiriz .fourBox {
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-    .joinAkbiriz .fourBox .item span {
-        font-size: 2rem;
-    }
-    .joinAkbiriz p {
-        font-size: 1.5rem;
-        font-weight: 600;
-        margin-top: 20px;
-        text-align: center;
-    }
-    .head {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .head h2 {
-        font-size: 2rem;
-    }
-    .head p {
-        font-size: 1rem;
-        margin: 0;
-    }
-    .whyChooseUs {
-        margin: 10px 0;
-    }
-    .chooseUs .item h3 {
-        text-align: center;
-        font-size: 1.2rem;
-        font-weight: 600;
-        min-height: 40px;
-    }
-    .chooseUs {
-        gap: 10px;
-    }
-    .chooseUs .item {
-        width: calc(100% - 0px);
-        padding: 10px;
-        border-radius: 20px;
-        padding-top: 0px;
-        transition: .5s ease-in-out;
-    }
-    .journey {
-        padding: 20px;
-    }
-    .journey h2 {
-        font-size: 1.2rem;
-        text-transform: uppercase;
-        font-weight: 600;
-        margin: 0;
-        line-height: 25px;
-    }
-    .mapIndia img {
-        margin: 0 auto;
-        display: block;
-        width: 100%;
-    }
-    .owl-nav {
-        position: absolute;
-        position: relative;
-        z-index: 1;
-        top: 0;
-        /* transform: translateY(-50%); */
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        gap: 10px;
-        margin-top: 10px;
-    }
-    .valuedCustomer .item img {
-        padding: 10px;
-        width: 100%;
-        height: 80px;
-    }
-    footer .topFooter {
-        gap:20px;
-        flex-wrap: wrap;
-    }
-    footer .topFooter .item {
-        width: 100%;
-    }
+@media (max-width: 767px) {
+  .shopName h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .rightTopHead {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  }
+  .rightTopHead .socialIcons ul li a {
+    color: #000;
+    margin-right: 5px;
+  }
+  .navbar-nav {
+    gap: 5px;
+  }
+  .navbar-brand img {
+    width: 110px;
+  }
+  .navbar-toggler {
+    order: 3;
+  }
+  .navbar-collapse {
+    order: 4;
+  }
+  .info {
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  .info .item {
+    
+    text-align: left;
+    flex: 100%;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    font-size: 1rem;
+    padding: 10px;
+    gap: 20px;
+  }
+  .joinAkbiriz {
+    margin: 15px 0;
+  }
+  .joinAkbiriz .fourBox {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .joinAkbiriz .fourBox .item span {
+    font-size: 2rem;
+  }
+  .joinAkbiriz p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .head {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .head h2 {
+    font-size: 2rem;
+  }
+  .head p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .whyChooseUs {
+    margin: 10px 0;
+  }
+  .chooseUs .item h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    min-height: 40px;
+  }
+  .chooseUs {
+    gap: 10px;
+  }
+  .chooseUs .item {
+    width: calc(100% - 0px);
+    padding: 10px;
+    border-radius: 20px;
+    padding-top: 0px;
+    transition: 0.5s ease-in-out;
+  }
+  .journey {
+    padding: 20px;
+  }
+  .journey h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    line-height: 25px;
+  }
+  .mapIndia img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+  .owl-nav {
+    position: absolute;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    /* transform: translateY(-50%); */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .valuedCustomer .item img {
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+  }
+  .breadCrumb h1 {
+    font-size: 2rem;
+}
+.aboutContent {
+    padding: 20px;
+}
+.sideBar {
+    height: auto;
+}
+.productContent {
+    padding: 30px 0px;
+}
+.otherProduct {
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.productDetails {
+    padding: 30px 20px;
+}
+  footer .topFooter {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  footer .topFooter .item {
+    width: 100%;
+  }
 }
